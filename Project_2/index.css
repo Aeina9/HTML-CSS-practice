@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --darkBrown: #311e10;
+  --yellow: #ffd034;
+  --tan: #fcf5c7;
+}
+
+body {
+  background-color: var(--tan);
+}
+/* Banner styling */
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .3)),
+    url("./Images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner-content {
+  min-height: 100vh;
+  padding-top: 175px;
+  font-size: 60px;
+  text-align: center;
+  color: var(--yellow);
+}
+
+a {
+  font-size: 35px;
+  color: var(--yellow);
+}
+
+/* About set up */
+.about {
+  height: 80vh;
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  color: var(--darkBrown);
+}
+
+/* Header */
+.header {
+  font-size: 60px;
+  padding-bottom: 35px;
+  text-decoration: underline;
+  color: var(--darkBrown);
+}
+
+/* pfp images */
+
+.pfp {
+  float: left;
+  opacity: 0.85;
+}
+
+.pfp:hover {
+  transition: 0.2s;
+  opacity: 1;
+}
+
+img {
+  width: 250px;
+  height: 333px;
+  position: absolute;
+}
+
+#pfp1 {
+  z-index: 1;
+}
+
+#pfp2 {
+  transform: translateX(50px);
+  z-index: -1;
+}
+
+#pfp3 {
+  transform: translateX(100px);
+  z-index: -2;
+}
+
+.pfp-move:hover {
+  transform: translateX(190px);
+  transition: 0.75s;
+  animation-fill-mode: both;
+}
+
+#pfp3:hover {
+  transform: translateX(290px);
+  transition: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+/* about text */
+.about-text {
+  margin-left: 55%;
+  text-align: left;
+}
+
+.works {
+  height: 50vh;
+  position: top;
+  text-align: center;
+  font-size: 25px;
+  color: var(--darkBrown);
+}
+
+.contacts {
+  height: 50vh;
+  position: top;
+  text-align: center;
+  font-size: 25px;
+  color: var(--darkBrown);
+}
+
+.linkedin {
+  color: var(--darkBrown);
+  text-align: left;
+}
+
+.btt {
+  color: var(--darkBrown);
+  text-align: center;
+  font-size: 15px;
+  padding: 50px;
+
+}

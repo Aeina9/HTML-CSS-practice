@@ -1,0 +1,37 @@
+/* Color properties */
+/* Color background-color */
+/* RGB colors 0-255 */
+/* RGBA 0-1 opacity value */
+/* HEX value ##RRGGBB 
+             ##FF0000 R
+             ##00FF00 G
+             ##0000FF B*/
+
+#first {
+  color: rgba(255, 0, 0, 0.658);
+  background: #000;
+}
+#second {
+  color: #fff;
+  background: #0f0;
+}
+#third {
+  color: #00f;
+  background: #f15025;
+}
+#fourth {
+  color: #f234ad;
+  background: #222;
+}
+#fifth {
+  color: rgb(200, 100, 100);
+  background: rgba(0, 0, 0, 0.25);
+}
+#sixth {
+  color: rgb(122, 11, 122);
+  background: rgba(0, 0, 0, 1);
+}
+#seventh {
+  color: rgb(230, 122, 0);
+  background: rgba(0, 0, 0, 0);
+}

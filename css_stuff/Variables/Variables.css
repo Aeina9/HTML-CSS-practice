@@ -1,0 +1,45 @@
+/* Without variables */
+/* .heading {
+  color: #29550092;
+}
+.text {
+  color: palevioletred;
+}
+.main-text {
+  color: blueviolet;
+}
+.second-heading {
+  color: #438b0092;
+} */
+
+/* :root {
+  --primaryColor: #ff3575;
+  --secondaryColor: #400094;
+  --mainTransition: all 0.5s linear;
+}
+.heading {
+  color: var(--primaryColor);
+}
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
+div {
+  --primaryRed: red;
+}
+.main-text {
+  color: var(--primaryRed);
+}
+.third-heading {
+  color: var(--primaryRed);
+} */
+.fa-hamburger {
+  color: green;
+}
+.social-icon {
+  font-size: 5rem;
+  color: blue;
+}

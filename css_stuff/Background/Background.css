@@ -1,0 +1,142 @@
+/* IMAGES */
+/* background-repeat */
+/* background-size */
+/* background-position */
+/* background-attachment */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: palevioletred;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .big-img {
+  background: url("./Bg_image/big.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+/* .small-img {
+  border: 5px solid black;
+  background: url("./Bg_image/Skinny.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+/* background-position: center;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: top; */
+
+/* .folder-img {
+  background: url("./Bg_image/big.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+/* GRADIENTS */
+/* div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(red, green);
+}
+
+.two {
+  background: linear-gradient(to top, red, green, blue, yellow);
+}
+
+.three {
+  background: linear-gradient(315deg, pink, purple);
+}
+
+.four {
+  background: linear-gradient(to top right, red, green);
+}
+
+.five {
+  background: linear-gradient(
+    to top left,
+    rgba(60, 20, 100, 1),
+    rgba(90, 180, 30, 0.6)
+  );
+}
+.six {
+  background: linear-gradient(
+    to bottom left,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.9)
+  );
+} */
+
+/* Combining images and gradients */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(230, 31, 124);
+}
+
+.banner {
+  background: url("./Bg_image/big.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Bg_image/big.webp") center/cover fixed no-repeat;
+}
+
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2e6d15+1,2989d8+50,ffb289+100 */
+  background: rgb(46, 109, 21); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(46, 109, 21, 1) 1%,
+    rgba(41, 137, 216, 1) 50%,
+    rgba(255, 178, 137, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(46, 109, 21, 1) 1%,
+    rgba(41, 137, 216, 1) 50%,
+    rgba(255, 178, 137, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(46, 109, 21, 1) 1%,
+    rgba(41, 137, 216, 1) 50%,
+    rgba(255, 178, 137, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e6d15', endColorstr='#ffb289',GradientType=1 ); /* IE6-9 */
+}

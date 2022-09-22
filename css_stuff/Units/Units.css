@@ -1,0 +1,55 @@
+/* font-size, width, height, pixel */
+/* em:depends on parent
+   1em = 16px default browswer style
+   rem: relative depends on root
+   1rem = 16px default browser style */
+/* div {
+  font-size: 40px;
+}
+.relative {
+  font-size: 2rem;
+}
+.filler {
+  font-size: 1em;
+}
+.absolute {
+  font-size: 32px;
+} */
+
+/* vh and vw : % of the screen*/
+/* .banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+} */
+
+/* default browser styles */
+/* access with CTRL+SHIFT+I (inspect) */
+/* h2 {
+  color: red;
+  font-size: 60px;
+} */
+
+/* calc() performs math operations +,-,*,/ */
+/* mix and match values */
+
+/* resetting default styles */
+* {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  height: 100px;
+  color: wheat;
+  font-size: 3rem;
+}
+
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
+}

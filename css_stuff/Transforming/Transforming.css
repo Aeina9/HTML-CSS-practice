@@ -1,0 +1,142 @@
+/* Transforming */
+/* 
+ div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: skewX(-20deg);
+}
+
+.two {
+  background: green;
+  transform: skewY(-20deg);
+}
+
+.three {
+  background: blue;
+  transform: skew(40deg, -20deg);
+} */
+
+/* transition */
+/* div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+}
+
+.two {
+  background: green;
+}
+
+.three {
+  background: blue;
+  transition: all 4s 1s;
+}
+
+.three:hover {
+  border-radius: 50%;
+  background: fuchsia;
+} */
+
+/* transition-timing-function */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background: rgb(119, 0, 255);
+  color: white;
+  margin: 15px;
+  transition: all 1s;
+}
+
+div:hover {
+  transform: translateX(200px);
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+} */
+
+/* transiton 0 = 100% ; animation 0% 1% 2%.... 100%*/
+div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  color: white;
+}
+/* Transition segment */
+/* .transition {
+  background: red;
+  transition: all 1s linear;
+}
+
+.transition:hover {
+  background: royalblue;
+  transform: translateX(150px);
+} */
+
+.animation {
+  background: blue;
+}
+.animation:hover {
+  animation: move 2s;
+  animation-fill-mode: forwards;
+}
+
+/* animation #1 */
+/* @keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: green;
+  }
+  75% {
+    transform: translateX(-20px);
+    background: rosybrown;
+  }
+} */
+
+/* Animation #2 */
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(200px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(200px);
+    opacity: 1;
+  }
+}

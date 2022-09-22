@@ -1,0 +1,77 @@
+/* element selectors */
+/* body {
+  color: red;
+}
+h1,
+h2 {
+  color: blue;
+} */
+
+/* id */
+/* #title {
+  color: green;
+  background: yellow;
+}
+#footer {
+  color: red;
+  background: orchid;
+} */
+
+/* Class selectors */
+/* .green {
+  color: green;
+  background: greenyellow;
+}
+.red {
+  color: red;
+  background: pink;
+}
+#title {
+  font-size: 40px;
+}
+.lowercase {
+  text-transform: lowercase;
+} */
+
+/* DIV SPAN */
+/* .green {
+  color: green;
+  background: greenyellow;
+}
+.red {
+  color: red;
+  background: pink;
+}
+
+span {
+  text-transform: uppercase;
+} */
+
+/* inheritance */
+/* body {
+  font-family: monospace;
+  line-height: 1.5em;
+}
+div {
+  color: blue;
+  border: 3px solid black;
+}
+h2 {
+  color: olive;
+} */
+
+/* last rule */
+/* p {
+  color: blue;
+}
+p {
+  color: red;
+} */
+
+/* specificity and universal selector*/
+/* .red {
+  color: red;
+}
+* {
+  color: blue;
+} */
